@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engine": {
+    "node": "7.0.0",
+    "npm": "3.10.8"
+  },
   "scripts": {
     "dev": "webpack-dev-server --inline --content-base . --history-api-fallback",
     "start": "node server/server.js",
